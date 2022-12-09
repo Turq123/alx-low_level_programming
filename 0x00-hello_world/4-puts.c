@@ -1,12 +1,13 @@
-#include <studio.h>
 /**
- * main - puts coding method
- * 
- * Return : 0 
- */ 
+ * This file prints
+ * Programming is like building a multilingual puzzl
+ * using puts
+ */
+#include <stdio.h>
+int main(void)
+{
+	puts("Programming is like building a multilingual puzzle \n");
+	
+	return (0);
 
-int main(viod)
-{ 
-	puts("Programming is like building a multilingual puzzle");
-	    return (0);
 }
