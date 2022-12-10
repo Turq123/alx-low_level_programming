@@ -1,9 +1,9 @@
 /**
- * This file prints
- * Programming is like building a multilingual puzzl
- * using put
+ * main -print a ine of code using puts
+ *
  * Return: 0
  */
+/
 #include <stdio.h>
 int main(void)
 {
