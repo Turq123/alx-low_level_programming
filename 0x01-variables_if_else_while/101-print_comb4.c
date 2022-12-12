@@ -26,7 +26,7 @@ int main(void)
 
 				if (x == 7 && z == y + 1)
 					continue;
-				putchar('.');
+				putchar(',');
 				putchar(' ');
 			}
 		}
