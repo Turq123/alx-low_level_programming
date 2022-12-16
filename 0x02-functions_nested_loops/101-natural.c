@@ -10,6 +10,8 @@ int main(void)
 {
 	int x;
 	int y;
+	int z;
+	int a = 0;
 
 	for (x = 0; x < 1024; x++)
 	{
@@ -29,9 +31,6 @@ int main(void)
 
 	putchar('\n');
 	putchar('\n');
-
-	int z;
-	int a = 0;
 
 	for (z = 0; z < 1024; z++)
 	{
