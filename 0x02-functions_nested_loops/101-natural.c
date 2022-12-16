@@ -8,18 +8,15 @@
 
 int main(void)
 {
-	int z;
-	int a = 0;
+	int z, a = 0;
 
 	for (z = 0; z < 1024; z++)
 	{
-		if (z % 3 == 0 || z % 5 == 0)
-			a = a + 1;
+		if ((z % 3) == 0 || (z % 5) == 0)
+			a += z;
 	}
 
-	printf("%d", a);
-
-	putchar('\n');
+	printf("%d\n", a);
 
 	return (0);
 }
