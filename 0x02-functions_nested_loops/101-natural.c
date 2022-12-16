@@ -8,29 +8,8 @@
 
 int main(void)
 {
-	int x;
-	int y;
 	int z;
 	int a = 0;
-
-	for (x = 0; x < 1024; x++)
-	{
-		if (x % 3 == 0)
-
-			printf("%d, ", x);
-	}
-
-	putchar('\n');
-	putchar('\n');
-
-	for (y = 0; y < 1024; y++)
-	{
-		if (y % 5 == 0)
-			printf("%d, ", y);
-	}
-
-	putchar('\n');
-	putchar('\n');
 
 	for (z = 0; z < 1024; z++)
 	{
