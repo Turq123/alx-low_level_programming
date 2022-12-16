@@ -11,7 +11,7 @@ int main(void)
 	int x;
 	unsigned long y = 0, z = 1, a;
 
-	for (x = 1; x < 50; x++)
+	for (x = 1; x <= 50; x++)
 	{
 		a = y + z;
 
@@ -20,7 +20,7 @@ int main(void)
 		y = z;
 		z = a;
 
-		if (x == 49)
+		if (x == 50)
 			printf("\n");
 		else
 			printf(", ");
