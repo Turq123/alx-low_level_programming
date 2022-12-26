@@ -28,7 +28,7 @@ int main(void)
 		halfa = (sum - 2772) / 2;
 		halfb = (sum - 2772) / 2;
 
-		if ((sum - 2772) % 2 == 0)
+		if ((sum - 2772) % 2 != 0)
 		{
 			halfa++;
 		}
