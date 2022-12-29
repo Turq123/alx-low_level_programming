@@ -2,7 +2,8 @@
 
 /**
  * leet - function that encodes a string into 1337
- * @sg: input string
+ * @s: input string
+ * Return: char
  */
 
 char *leet(char *s)
@@ -11,9 +12,9 @@ char *leet(char *s)
 	char a[] = "aAeEoOtTlL";
 	char b[] = "4433007711";
 
-	for (x = 0; *(s + x); s++)
+	for (x = 0; *(s + x); x++)
 	{
-		for (y = 0; y < 10; y++)
+		for (y = 0; y <= 9; y++)
 		{
 			if (a[y] == s[x])
 			{
