@@ -3,13 +3,14 @@
 /**
  * rot13 - encodes a string using rot13.
  * @sg: string
+ * Return: char
  */
 
 char *rot13(char *sg)
 {
 	int x, y;
 	char a[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char b[] = "nopqrstuvwqyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+	char b[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
 	for (x = 0; *(sg + x); x++)
 	{
