@@ -1,4 +1,4 @@
-#inclide " main.h"
+#include "main.h"
 
 /**
  * print_number - function that prints an integer
@@ -13,13 +13,13 @@ void print_number(int n)
 	{
 		_putchar('-');
 
-		n = n * -1;
+		n *= -1;
 	}
 
 	y = n;
 
 	if (y / 10)
-		print_number(x / 10);
+		print_number(y / 10);
 
-	_putchar(x % 10 + '0');
+	_putchar(y % 10 + '0');
 }
