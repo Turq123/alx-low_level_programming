@@ -12,7 +12,7 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int var;
 
-	for (var = 0; var < n && *(dest + var); var++)
+	for (var = 0; var < n && *(src + var); var++)
 	{
 		*(dest + var) = *(src + var);
 	}
